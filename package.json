@@ -2,7 +2,7 @@
   "name": "svelte-todo",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://m3rashid.github.io/svelte-todo",
+  "homepage": "https://m3rashid.github.io/svelte-todo",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "vite build",
