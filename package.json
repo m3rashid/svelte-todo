@@ -1,6 +1,5 @@
 {
   "name": "svelte-todo",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "http://merashid.github.io/svelte-todo",
@@ -9,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "predeploy": "pnpm build",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
